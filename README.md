@@ -120,8 +120,3 @@ ngrok http 5000
 - **CORS Issues**: Fix in Flask settings  
 
 ---
-
-## 📝 License
-MIT — Free to use, modify, and contribute.
-
-> Built with ❤️ using Flask, React, and MongoDB
