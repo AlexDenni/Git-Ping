@@ -8,7 +8,7 @@ from flask_cors import CORS
 from src.routes.webhook import webhook_bp
 from src.routes.api import api_bp
 
-app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
+app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'git-ping-secret-key-2024')
 
 # Enable CORS for all routes
